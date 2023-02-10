@@ -1,76 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Float & Align</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Float & Align</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.4em;
-    }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+        background: url("./img/tt.png") no-repeat center center/cover;
+      }
 
-    .container {
-      max-width: 960px;
-      margin: 30px auto;
-    }
+      .container {
+        max-width: 960px;
+        margin: 30px auto;
+      }
 
-    .clr {
-      clear: both;
-    }
+      .clr {
+        clear: both;
+      }
 
-    .box {
-      background: #f4f4f4;
-      border: 1px solid #333;
-      padding: 20px;
-      margin-bottom: 15px;
-    }
+      .box {
+        background: #f4f4f4;
+        border: 1px solid #333;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
 
-    .box p {
-      /* Text Align */
-      text-align: left;
-      text-align: right;
-      text-align: center;
-      text-align: justify;
-    }
+      .box p {
+        /* Text Align */
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        text-align: justify;
+      }
+      #box-1 {
+        border-color: rgb(77, 255, 0);
+      }
 
-    #box-2 {
-      float: left;
-      width: 68%;
-    }
+      #box-2 {
+        float: left;
+        width: 68%;
+        border-color: blue;
+      }
 
-    #box-3 {
-      float: right;
-      width: 30%;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div id="box-1" class="box">
-      <h3>Heading</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
+      #box-3 {
+        float: right;
+        width: 30%;
+        border-color: gold;
+        border-radius: 30px;
+      }
+
+      #box-4 {
+        border-color: rgb(255, 0, 0);
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box-1" class="box">
+        <h3>Dogs</h3>
+        <p>
+          What if dogs were racist? Would they care about fur color….. “son,
+          only play with other tan dogs”? Or maybe it would depend on breed,
+          “honey, only play with other German Shepards, never poodles”. Better
+          yet it could depend on occupation. “I’m a sled dog while you’re only a
+          running companion, leave me alone”. Maybe the neighborhood they live
+          in could be the way they choose which dogs to associate with and which
+          to shun? Size could be the determining factor, “see how tall that dog
+          is, they are probably dumb”. Luckily dogs don’t discriminate. Just
+          watch at a dog park. Big black and white dogs wag their tails and play
+          with tiny tan dogs. A service dog chases after the same ball as the
+          off-duty police dog. So if dogs don’t discriminate then why do we?
+        </p>
+      </div>
+      <div id="box-2" class="box">
+        <h3>Rain</h3>
+        <p>
+          It was cloudy outside but not really raining. There was a light
+          sprinkle at most and there certainly wasn't a need for an umbrella.
+          This hadn't stopped Sarah from pulling her umbrella out and opening
+          it. It had nothing to do with the weather or the potential rain later
+          that day. Sarah used the umbrella to hide.
+        </p>
+      </div>
+      <div id="box-3" class="box">
+        <h3>Escape</h3>
+        <p>
+          The irony of the situation hadn't escaped her. She had taken years to
+          sculpt the perfect persona with the perfect look that she shared on
+          Instagram.
+        </p>
+      </div>
+
+      <div class="clr"></div>
+
+      <div id="box-4" class="box">
+        <h3>Josh</h3>
+        <p>
+          Josh had spent year and year accumulating the information. He knew it
+          inside out and if there was ever anyone looking for an expert in the
+          field, Josh would be the one to call. The problem was that there was
+          nobody interested in the information besides him and he knew it. Years
+          of information painstakingly memorized and sorted with not a sole
+          giving even an ounce of interest in the topic.
+        </p>
+      </div>
     </div>
-    <div id="box-2" class="box">
-      <h3>Heading</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
-    </div>
-    <div id="box-3" class="box">
-      <h3>Heading</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
-    </div>
-
-    <div class="clr"></div>
-
-    <div id="box-4" class="box">
-      <h3>Heading</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
